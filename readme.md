@@ -16,3 +16,8 @@ phpmyadmin => 1002:80
 ## untuk mengakses mysql melalui command
 1. lakukan "docker exec -it db_docker sh"
 3. lakukan "mysql -u root -p"
+
+## test crete project laravel
+1. arahkan dir position to ./src
+2. lakukan "docker exec php_docker composer create-project laravel/laravel ."
+3. jika telah selesai instalasi laravel maka saat akses port 1001:80 akan menampilkan halaman index laravel
